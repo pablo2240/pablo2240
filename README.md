@@ -6,12 +6,7 @@
   <img alt="Pablo — profile.sh" src="https://raw.githubusercontent.com/pablo2240/pablo2240/main/dark.svg">
 </picture>
 
-<!-- ===== GITHUB TROPHIES ===== -->
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=pablo2240&theme=darkhub&column=7&margin_w=15&margin_h=15&no-bg=true&no-frame=true" alt="Pablo's Trophies" />
-  </a>
-</div>
+
 
 <!-- ===== GITHUB STATS & STREAK ===== -->
 <div align="center">
