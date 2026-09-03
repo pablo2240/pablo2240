@@ -6,15 +6,8 @@
     <stop offset="100%" stop-color="#FFAA00"><animate attributeName="stop-color" values="#FFAA00;#FFE600;#FF6B00;#FFAA00" dur="8s" repeatCount="indefinite"/></stop>
   </linearGradient>
 
-  <linearGradient id="asciiGrad" x1="0" y1="0" x2="0" y2="520" gradientUnits="userSpaceOnUse">
-    <stop offset="0" stop-color="#FFE600"/>
-    <stop offset="0.45" stop-color="#FFAA00"/>
-    <stop offset="1" stop-color="#FF6B00"/>
-    <animateTransform attributeName="gradientTransform" type="translate" values="0 -120; 0 120; 0 -120" dur="9s" repeatCount="indefinite"/>
-  </linearGradient>
-
   <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#080B11"/>
+    <stop offset="0%" stop-color="#080B11"/>
     <stop offset="100%" stop-color="#0E121A"/>
   </linearGradient>
 
@@ -49,8 +42,8 @@
   <rect x="36" y="84" width="400" height="492" rx="10" fill="#06090F" stroke="rgba(255,107,0,0.35)"/>
 
   <!-- ================= AVATAR LAYER: CYCLING LOOP WITH SIGNS ================= -->
-  <!-- The avatar is displayed with crisp Floyd/Atkinson dots in neon amber/yellow, then cross-fades with the signs -->
   <g clip-path="url(#hudClip)">
+    <!-- Layer 1: Avatar dots in Neon Yellow -->
     <g transform="translate(50,86) scale(1.2400,1.4471)" fill="#FFE600" shape-rendering="crispEdges">
       <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.55;0.92;1" dur="14s" repeatCount="indefinite"/>
       <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.9s" begin="0.20s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/><path d="M164 54h4v1h-4zM211 83h1v1h-1zM78 84h1v1h-1zM167 91h1v1h-1zM237 92h2v1h-2zM152 95h2v1h-2zM133 98h2v1h-2zM157 99h2v1h-2zM229 101h2v1h-2zM181 103h1v1h-1zM199 110h1v1h-1zM146 111h1v1h-1zM211 121h1v1h-1zM52 126h1v1h-1zM113 128h4v1h-4zM99 130h1v1h-1zM63 131h1v1h-1zM98 135h1v1h-1zM114 137h1v1h-1zM90 144h4v1h-4zM140 144h3v1h-3zM193 144h3v1h-3zM107 146h1v1h-1zM231 147h1v1h-1zM125 152h1v1h-1zM230 157h1v1h-1zM88 167h1v1h-1zM67 175h1v1h-1zM155 176h10v1h-10zM154 177h59v1h-59zM66 180h1v1h-1zM192 184h16v1h-16zM178 187h2v1h-2zM181 191h2v1h-2zM145 192h22v1h-22zM220 196h2v1h-2zM186 199h29v1h-29zM92 201h24v1h-24zM112 207h2v1h-2zM197 214h2v1h-2zM135 215h2v1h-2zM105 217h2v1h-2zM124 217h5v1h-5zM215 217h2v1h-2zM103 219h1v1h-1zM112 219h1v1h-1zM196 223h3v1h-3zM118 227h1v1h-1zM120 227h2v1h-2zM204 232h2v1h-2zM187 234h9v1h-9zM175 236h3v1h-3zM145 240h2v1h-2zM159 240h2v1h-2zM187 240h2v1h-2zM86 243h2v1h-2zM203 244h3v1h-3zM146 250h1v1h-1zM189 250h1v1h-1zM167 253h1v1h-1zM186 255h2v1h-2zM127 256h6v1h-6zM118 258h2v1h-2zM224 259h1v1h-1zM104 260h4v1h-4zM114 261h6v1h-6zM151 261h10v1h-10zM245 267h4v1h-4zM112 268h3v1h-3zM219 268h2v1h-2zM229 268h3v1h-3zM259 268h3v1h-3zM224 270h5v1h-5zM100 271h1v1h-1zM68 274h10v1h-10zM123 274h13v1h-13zM228 274h6v1h-6zM254 276h5v1h-5zM232 279h1v1h-1zM241 281h2v1h-2zM81 284h2v1h-2zM250 290h4v1h-4zM86 293h2v1h-2zM111 293h2v1h-2zM120 297h1v1h-1zM134 298h1v1h-1zM85 304h6v1h-6zM76 308h1v1h-1zM176 309h1v1h-1zM102 310h2v1h-2zM76 314h4v1h-4zM163 315h18v1h-18zM119 317h1v1h-1zM148 318h1v1h-1zM88 320h1v1h-1zM161 326h1v1h-1zM154 327h3v1h-3zM152 330h1v1h-1z"/></g>
@@ -115,7 +108,7 @@
 <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.9s" begin="2.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/><path d="M153 55h1v1h-1zM157 59h2v1h-2zM174 61h3v1h-3zM200 64h1v1h-1zM184 65h2v1h-2zM169 73h3v1h-3zM203 76h4v1h-4zM222 84h2v1h-2zM223 86h1v1h-1zM134 96h2v1h-2zM156 97h2v1h-2zM62 100h2v1h-2zM219 102h1v1h-1zM118 103h1v1h-1zM113 112h2v1h-2zM103 117h1v1h-1zM218 118h4v1h-4zM130 120h2v1h-2zM217 124h3v1h-3zM113 127h6v1h-6zM191 130h5v1h-5zM75 134h1v1h-1zM200 135h2v1h-2zM231 135h1v1h-1zM189 136h1v1h-1zM74 139h1v1h-1zM89 146h3v1h-3zM182 147h1v1h-1zM224 147h4v1h-4zM161 155h2v1h-2zM50 156h1v1h-1zM137 157h1v1h-1zM82 159h6v1h-6zM167 159h17v1h-17zM151 161h3v1h-3zM166 161h19v1h-19zM189 161h2v1h-2zM160 164h3v1h-3zM148 170h1v1h-1zM72 179h1v1h-1zM110 183h1v1h-1zM143 186h2v1h-2zM146 189h25v1h-25zM75 190h4v1h-4zM124 191h1v1h-1zM98 210h1v1h-1zM129 210h88v1h-88zM76 218h7v1h-7zM217 221h5v1h-5zM77 223h7v1h-7zM172 225h6v1h-6zM125 226h2v1h-2zM86 228h2v1h-2zM92 228h6v1h-6zM83 231h1v1h-1zM168 240h2v1h-2zM86 242h3v1h-3zM83 243h2v1h-2zM171 244h2v1h-2zM100 249h3v1h-3zM74 252h2v1h-2zM118 252h2v1h-2zM208 252h1v1h-1zM176 253h1v1h-1zM81 254h4v1h-4zM160 255h1v1h-1zM234 255h2v1h-2zM83 256h1v1h-1zM232 258h1v1h-1zM140 259h21v1h-21zM195 259h1v1h-1zM128 261h6v1h-6zM126 262h3v1h-3zM92 265h2v1h-2zM181 265h1v1h-1zM127 267h9v1h-9zM144 274h6v1h-6zM67 275h11v1h-11zM230 275h4v1h-4zM86 276h9v1h-9zM129 278h12v1h-12zM85 288h1v1h-1zM110 290h1v1h-1zM62 291h12v1h-12zM199 303h1v1h-1zM210 305h2v1h-2zM123 310h1v1h-1zM197 310h2v1h-2zM80 313h1v1h-1zM103 313h4v1h-4zM213 315h1v1h-1zM88 319h1v1h-1zM104 324h2v1h-2zM120 324h1v1h-1zM155 326h3v1h-3zM124 327h1v1h-1zM129 331h1v1h-1z"/></g>
     </g>
 
-    <!-- Morphing Constellation Signs Layer (Alternates with Avatar) -->
+    <!-- Layer 2: Morphing Constellation Signs -->
     <g transform="translate(50,86) scale(1.2400,1.4471)" shape-rendering="crispEdges" opacity="0">
       <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.55;0.92;1" dur="14s" repeatCount="indefinite"/>
       <use href="#tvdark" opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="176 198;176 198;166 176;166 176;162 170;162 170;166 182;166 182;176 198" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/></use>
@@ -1018,7 +1011,6 @@
 <use href="#tvdark" opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="217 308;217 308;176 244;176 244;206 218;206 218;169 218;169 218;217 308" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/></use>
 <use href="#tvdark" opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="238 324;238 324;185 254;185 254;213 224;213 224;179 216;179 216;238 324" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/></use>
 <use href="#tvdark" opacity="0"><animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="177 265;177 265;158 215;158 215;131 207;131 207;143 205;143 205;177 265" keyTimes="0.000;0.194;0.288;0.432;0.525;0.669;0.763;0.906;1.000" dur="13.9s" begin="3.2s" repeatCount="indefinite"/></use>
-</g>
 
     </g>
   </g>
